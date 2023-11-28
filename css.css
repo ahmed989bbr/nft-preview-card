@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: hsl(228, 45%, 44%);
+    text-align: center;
+    
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 90px;
+    background-color: #14273E;
+}
+
+.over{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+
+}
+.container .m{
+    width: 100%;
+    position: relative;
+    margin:2px auto;
+
+}
+.card-title{
+    color: #fff;
+    text-align: start;
+    font-size: 20px;
+    padding: 10px;
+}
+.card-text{
+    color: #ffffffa9;
+    text-align: start;
+    font-size: 16px;
+    padding: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.t{
+    color: white;
+}
+.t:hover{
+    color: rgba(0, 255, 255, 0.926)
+}
+.card-text:hover{
+    color: rgba(0, 255, 255, 0.926)
+}
+.card-title:hover{
+    color: rgba(0, 255, 255, 0.926)
+}
+span:hover{
+    color: rgba(0, 255, 255, 0.926)
+}
+
+.com{
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.p{
+  padding: 10px;
+
+}
+.l{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 3px;
+}
+.l img{
+    margin: 5px;
+    padding: 3px;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+  border: none;
+  border-bottom:1px solid ;
+    color: rgba(245, 245, 220, 0.952);
+}
+.com img{
+    width: 40px;
+    height: 40px;
+}
+.c{
+   margin-top: 50px;
+}
+.over:hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 255, 255, 0.449);
+}
